@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var professional_1 = require("./professional");
+var Movie_1 = require("./Movie");
+var actor1 = new professional_1.Professional("Javier Bardem", 55, 84, 1.81, false, "Spanish", 1, "Actor");
+var actor2 = new professional_1.Professional("Penélope Cruz", 50, 62, 1.68, false, "Spanish", 1, "Actress");
+var director = new professional_1.Professional("Pedro Almodóvar", 75, 75, 1.70, false, "Spanish", 2, "Director");
+var movie = new Movie_1.Movie("Volver", 2006, "Spanish", "Drama");
+movie.actors = [actor1, actor2];
+movie.director = director;
+movie.language = "Spanish";
+movie.isMCU = false;
+movie.mainCharacterName = "Raimunda";
+movie.producer = "Agustín Almodóvar";
+movie.distributor = "Warner Bros";
+movie.printMovieDetails();
