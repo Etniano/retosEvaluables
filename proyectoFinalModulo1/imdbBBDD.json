@@ -1,0 +1,69 @@
+{
+  "peliculas": [
+    {
+      "actors": [],
+      "director": null,
+      "language": "",
+      "isMCU": false,
+      "mainCharacterName": "",
+      "producer": "",
+      "distributor": "",
+      "title": "Volver",
+      "releaseYear": 2006,
+      "nationality": "Spain",
+      "genre": "Drama"
+    },
+    {
+      "actors": [],
+      "director": null,
+      "language": "",
+      "isMCU": false,
+      "mainCharacterName": "",
+      "producer": "",
+      "distributor": "",
+      "title": "Vicky Cristina Barcelona",
+      "releaseYear": 2008,
+      "nationality": "USA/Spain",
+      "genre": "Romantic Comedy"
+    },
+    {
+      "actors": [],
+      "director": null,
+      "language": "",
+      "isMCU": false,
+      "mainCharacterName": "",
+      "producer": "",
+      "distributor": "",
+      "title": "Biutiful",
+      "releaseYear": 2010,
+      "nationality": "Mexico/Spain",
+      "genre": "Drama"
+    },
+    {
+      "actors": [],
+      "director": null,
+      "language": "",
+      "isMCU": false,
+      "mainCharacterName": "",
+      "producer": "",
+      "distributor": "",
+      "title": "Parallel Mothers",
+      "releaseYear": 2021,
+      "nationality": "Spain",
+      "genre": "Drama"
+    },
+    {
+      "actors": [],
+      "director": null,
+      "language": "",
+      "isMCU": false,
+      "mainCharacterName": "",
+      "producer": "",
+      "distributor": "",
+      "title": "Mar adentro",
+      "releaseYear": 2004,
+      "nationality": "Spain",
+      "genre": "Biography/Drama"
+    }
+  ]
+}
