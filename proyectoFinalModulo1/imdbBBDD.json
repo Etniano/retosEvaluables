@@ -1,7 +1,18 @@
 {
   "peliculas": [
     {
-      "actors": [],
+      "actors": [
+        {
+          "name": "Santiago Segura",
+          "age": 59,
+          "weight": 80,
+          "height": 1,
+          "isRetired": false,
+          "nationality": "Espa�ol",
+          "oscarsNumber": 0,
+          "profession": "Actor y director"
+        }
+      ],
       "director": null,
       "language": "",
       "isMCU": false,

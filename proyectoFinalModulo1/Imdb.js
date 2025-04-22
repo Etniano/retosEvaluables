@@ -12,6 +12,9 @@ var Imdb = /** @class */ (function () {
         fs.writeFileSync(nombreArchivo, jsonString);
         console.log("Archivo guardado como ".concat(nombreArchivo));
     };
+    Imdb.prototype.escribirEnFicheroJSON = function (nombreFichero) {
+        this.guardarEnFicheroJSON(nombreFichero);
+    };
     Imdb.obtenerInstanciaDesdeFicheroJSON = function (nombreArchivo) {
         var rawData = fs.readFileSync(nombreArchivo, 'utf-8');
         var jsonData = JSON.parse(rawData);
@@ -19,6 +22,9 @@ var Imdb = /** @class */ (function () {
             return new Movie_1.Movie(p.title, p.releaseYear, p.nationality, p.genre);
         });
         return new Imdb(peliculas);
+    };
+    Imdb.leerDesdeFicheroJSON = function (nombreFichero) {
+        return this.obtenerInstanciaDesdeFicheroJSON(nombreFichero);
     };
     return Imdb;
 }());
